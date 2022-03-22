@@ -1,0 +1,143 @@
+*{
+    background-color: white;
+}
+
+header{
+    display:flex;
+    justify-content:right;
+    padding-bottom: 60px; 
+    padding-top: 20px; 
+}
+
+table td{
+    text-align:center;
+    vertical-align: text-top;
+    border-style: solid;
+    border-color:darkgrey;
+    border-radius: 20px;
+}
+
+/*  
+********************
+        menu
+********************/
+.navbar{
+    float: left;
+}
+
+.navbar a{
+    overflow:hidden;
+    background-color: rgb(38, 0, 255);
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*  
+********************
+        menu
+********************/
+
+.cont{
+    display:flex;
+    flex-direction: column;
+}
+
+.imgs1{
+    width: 200px;
+    height: 250px;
+    box-shadow: 1px;
+    border-radius: 5px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.c1{
+    padding-right: 10px;
+}
+
+  .c12{
+    display:flex;
+    flex-direction: row;
+}
+.c12 p{
+    width: 80%;
+    text-align:justify;
+    align-content: flex-end;
+    padding-right: 10px;
+    vertical-align: top;
+}
+.c12 h4{
+    width: 20%;
+    text-align:justify;
+    align-content: flex-start;
+}
+.c1 p{
+    text-align: right;
+    align-content: flex-start;
+}
+
+.c1 h4{
+    text-align: right;
+}
+
+.sec2{
+
+    background-color: white;
+    display:flex;
+}
+
+.c2{
+    width: 30%;
+    background-color: white;
+
+}
+
+.c22{
+    width: 30%;
+    background-color:white;
+}
+
+
+.imgicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.c2 img{
+   border-radius: 1800px;
+    width: 450px;
+    height: 400px;
+}
+
+.c21{
+    width: 40%;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px ;
+
+}
+
+.c21 td{
+    text-align: justify;
+}
+
+
+.sec3{
+    width: 100%;
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+
+.sec4{
+    width: 100%;
+    height: 200px;    
+    background-color: darkgray;
+}
+
